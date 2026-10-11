@@ -1,5 +1,5 @@
 {
- "updated": "11.10.2026, 21:52 Uhr",
+ "updated": "11.10.2026, 21:56 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -125,7 +125,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-francesca-morgese-178558",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   }
  ],
  "news": [
@@ -337,6 +337,13 @@
    "von": null,
    "ergebnis": "Nominiert, Entscheidung offen",
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Francesca Morgese",
+   "von": "Von Zuschauer gewählt",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
   }
  ],
  "arch": [
