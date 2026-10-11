@@ -2,7 +2,7 @@ name: Daten aktualisieren und Seite veröffentlichen
 
 on:
   schedule:
-    - cron: "7 * * * *"   # jede Stunde, Minute 7
+    - cron: "7,27,47 * * * *"   # dreimal pro Stunde (GitHub lässt geplante Läufe oft ausfallen)
   workflow_dispatch:       # manuell startbar
   push:
     branches: [main]
