@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>PBB Fanzone Admin</title>
+<style>
+:root{--bg:#07070a;--panel:#14141a;--panel2:#1d1d25;--line:#2c2c36;--text:#f5f5f5;--muted:#a6a6b2;--yellow:#ffd400;--garden:#7ed957;--red:#ff2d55}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:90px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{background:var(--yellow);color:#000;padding:10px 16px;font-weight:900;text-transform:uppercase;letter-spacing:.05em}
+h1{font-family:Impact,"Arial Narrow Bold",sans-serif;font-weight:400;text-transform:uppercase;margin:22px 0 4px;font-size:2rem}
+h2{font-family:Impact,"Arial Narrow Bold",sans-serif;font-weight:400;text-transform:uppercase;color:var(--yellow);margin:0 0 10px;font-size:1.4rem}
+.box{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--yellow);padding:16px;margin:16px 0}
+label{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 4px}
+input,select,button{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);padding:9px 12px;width:100%}
+input:focus,select:focus{outline:2px solid var(--yellow)}
+button{cursor:pointer;font-weight:800;text-transform:uppercase;letter-spacing:.04em;width:auto}
+button.main{background:var(--yellow);color:#000;border-color:var(--yellow)}
+button.danger{background:var(--red);border-color:var(--red)}
+button:disabled{opacity:.4;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>*{flex:1 1 180px}
+.checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:6px}
+.checks label{display:flex;gap:8px;align-items:center;margin:0;padding:8px 10px;background:var(--panel2);border:1px solid var(--line);color:var(--text);cursor:pointer}
+.checks input{width:auto}
+.checks label.done{opacity:.4}
+table{border-collapse:collapse;width:100%}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;font-size:.9rem}
+th{color:var(--yellow);text-transform:uppercase;font-size:.75rem}
+.msg{padding:10px 14px;margin:12px 0;border-left:6px solid var(--yellow);background:#201a00;font-size:.9rem}
+.msg.err{border-color:var(--red);background:#2a0a12}
+.msg.ok{border-color:var(--garden);background:#10200a}
+.bar{position:fixed;left:0;right:0;bottom:0;background:#000;border-top:3px solid var(--yellow);padding:10px 16px;z-index:5}
+.bar .wrap{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.bar span{flex:1;color:var(--muted);font-size:.9rem}
+small{color:var(--muted)}
+a{color:var(--yellow)}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>PBB Fanzone · Admin</header>
+<main class="wrap">
+  <h1>Nominierungen &amp; Auszüge</h1>
+  <p><small>Nur für dich. Änderungen gehen erst live, wenn du unten auf „Veröffentlichen“ klickst. Bitte nur eintragen, was in der Sendung oder offiziell bei Sat.1/Joyn zu sehen war.</small></p>
+  <div id="msg"></div>
+
+  <details class="box" id="conn">
+    <summary><strong>Verbindung zu GitHub</strong> <small id="connState"></small></summary>
+    <p><small>Ohne Zugangsdaten arbeitet die Seite im Testmodus (Änderungen werden nur als Datei zum Herunterladen angeboten). Das Token bleibt nur in diesem Browser gespeichert und wird nur an api.github.com gesendet.</small></p>
+    <div class="row">
+      <div><label for="repo">Repository (Name/Repo)</label><input id="repo" value="TeoDorTV/promi-bgb" autocomplete="off"></div>
+      <div><label for="branch">Branch</label><input id="branch" value="main" autocomplete="off"></div>
+    </div>
+    <label for="token">Token (Fine-grained, nur dieses Repo, Contents: Read and write)</label>
+    <input id="token" type="password" placeholder="github_pat_…" autocomplete="off">
+    <p><button id="saveConn" class="main">Verbinden &amp; laden</button> <button id="forget">Token vergessen</button></p>
+  </details>
+
+  <section class="box">
+    <h2>Neue Nominierung</h2>
+    <label>Wer ist nominiert? (mehrere möglich)</label>
+    <div class="checks" id="nomChecks"></div>
+    <div class="row">
+      <div><label for="nomTag">Tag der Sendung</label><input id="nomTag" type="number" min="1" value="7"></div>
+      <div><label for="nomVon">Nominiert von (optional)</label><input id="nomVon" placeholder="z. B. Verlierer-Team"></div>
+    </div>
+    <label for="nomUrl">Quellen-Link (optional, am besten Sat.1/Joyn)</label>
+    <input id="nomUrl" type="url" placeholder="https://www.joyn.de/…">
+    <p><button class="main" id="addNom">Nominierung eintragen</button></p>
+  </section>
+
+  <section class="box">
+    <h2>Auszug / Gewinner</h2>
+    <div class="row">
+      <div><label for="exName">Bewohner:in</label><select id="exName"></select></div>
+      <div><label for="exKind">Ergebnis</label><select id="exKind"><option value="out">Ausgezogen</option><option value="win">Gewinner:in</option></select></div>
+      <div><label for="exTag">Tag</label><input id="exTag" type="number" min="1" value="7"></div>
+    </div>
+    <label for="exUrl">Quellen-Link (optional)</label>
+    <input id="exUrl" type="url" placeholder="https://www.joyn.de/…">
+    <p><button class="main" id="addEx">Eintragen</button></p>
+    <p><button id="resetNoms">Runde beenden: übrige Nominierte gelten als gerettet</button></p>
+  </section>
+
+  <section class="box">
+    <h2>Wohnbereich</h2>
+    <table id="areaTable"></table>
+  </section>
+
+  <section class="box">
+    <h2>Aktuelle Tabelle</h2>
+    <div style="overflow-x:auto"><table id="nomList"></table></div>
+  </section>
+</main>
+
+<div class="bar"><div class="wrap">
+  <span id="dirty">Keine ungespeicherten Änderungen</span>
+  <button id="dl">Als Datei herunterladen</button>
+  <button class="main" id="publish" disabled>Veröffentlichen</button>
+</div></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+let D = null, sha = null, dirty = false;
+const store = {
+  get(k){try{return localStorage.getItem(k)||""}catch(e){return ""}},
+  set(k,v){try{localStorage.setItem(k,v)}catch(e){}},
+  del(k){try{localStorage.removeItem(k)}catch(e){}}
+};
+const cfg = () => ({repo:$("repo").value.trim(), branch:$("branch").value.trim()||"main", token:$("token").value.trim()});
+const remote = () => { const c=cfg(); return !!(c.token && /^[\w.-]+\/[\w.-]+$/.test(c.repo)); };
+
+function msg(text,kind){ $("msg").innerHTML = text?`<div class="msg ${kind||""}">${text}</div>`:""; }
+function setDirty(v){
+  dirty=v; $("dirty").textContent = v?"Ungespeicherte Änderungen":"Keine ungespeicherten Änderungen";
+  $("publish").disabled = !v || !remote();
+}
+const b64dec = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")),c=>c.charCodeAt(0)));
+const b64enc = s => { const b=new TextEncoder().encode(s); let t=""; b.forEach(x=>t+=String.fromCharCode(x)); return btoa(t); };
+function nowStr(){
+  const p = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}).formatToParts(new Date());
+  const g = t => p.find(x=>x.type===t).value;
+  return `${g("day")}.${g("month")}.${g("year")}, ${g("hour")}:${g("minute")} Uhr`;
+}
+
+async function api(path,opt={}){
+  const c=cfg();
+  const r = await fetch(`https://api.github.com/repos/${c.repo}/${path}`,{...opt,headers:{Accept:"application/vnd.github+json",Authorization:"Bearer "+c.token,...(opt.headers||{})}});
+  if(!r.ok){ const t=await r.text(); throw new Error(r.status+" "+t.slice(0,200)); }
+  return r.json();
+}
+
+async function load(){
+  try{
+    if(remote()){
+      const c=cfg();
+      const j = await api(`contents/data.json?ref=${encodeURIComponent(c.branch)}`);
+      sha=j.sha; D=JSON.parse(b64dec(j.content));
+      $("connState").textContent="· verbunden mit "+c.repo;
+    } else {
+      D = await (await fetch("data.json?"+Date.now())).json(); sha=null;
+      $("connState").textContent="· Testmodus (nicht verbunden)";
+    }
+    msg("");
+    buildUI(); setDirty(false);
+  }catch(e){ msg("Laden fehlgeschlagen: "+esc(e.message),"err"); }
+}
+
+function maxDay(){ return Math.max(1,...(D.episodes||[]).map(e=>e.day), ...(D.noms||[]).map(n=>+String(n.tag).replace(/\D/g,"")||0), ...(D.diary_manual||[]).map(n=>+String(n.tag).replace(/\D/g,"")||0)); }
+
+function buildUI(){
+  const day = maxDay();
+  if(!$("nomTag").dataset.set){ $("nomTag").value=day; $("exTag").value=day; $("nomTag").dataset.set=1; }
+  const active = D.cast.filter(c=>c.status==="in");
+  $("nomChecks").innerHTML = active.map(c=>`<label class="${c.nominated?"done":""}"><input type="checkbox" value="${esc(c.name)}"> ${esc(c.name)}${c.nominated?" (nominiert)":""}</label>`).join("");
+  $("exName").innerHTML = active.map(c=>`<option>${esc(c.name)}</option>`).join("");
+  $("areaTable").innerHTML = "<tr><th>Bewohner:in</th><th>Status</th><th>Bereich</th></tr>"+D.cast.map((c,i)=>
+    `<tr><td>${esc(c.name)}</td><td>${c.status==="out"?"Ausgezogen":c.status==="win"?"Gewinner:in":"Dabei"}</td><td><select data-i="${i}" class="areaSel"><option value="">–</option><option ${c.area==="Haus"?"selected":""} value="Haus">Luxus-Haus</option><option ${c.area==="Garten"?"selected":""} value="Garten">Garten</option></select></td></tr>`).join("");
+  document.querySelectorAll(".areaSel").forEach(s=>s.onchange=()=>{ D.cast[+s.dataset.i].area=s.value||null; setDirty(true); });
+  $("nomList").innerHTML = "<tr><th>Tag</th><th>Name</th><th>Von</th><th>Ergebnis</th><th></th></tr>"+
+    (D.noms.length?D.noms.map((n,i)=>`<tr><td>${esc(n.tag)}</td><td>${esc(n.name)}</td><td>${esc(n.von||"–")}</td><td>${esc(n.ergebnis)}</td><td><button class="danger delRow" data-i="${i}">Löschen</button></td></tr>`).join(""):'<tr><td colspan="5"><small>Noch keine Einträge</small></td></tr>');
+  document.querySelectorAll(".delRow").forEach(b=>b.onclick=()=>{
+    const n=D.noms[+b.dataset.i];
+    if(!confirm(`Eintrag „${n.name} – ${n.ergebnis}“ löschen?`))return;
+    D.noms.splice(+b.dataset.i,1);
+    const c=D.cast.find(x=>x.name===n.name);
+    if(c && !D.noms.some(x=>x.name===n.name && /^Nominiert/.test(x.ergebnis))) c.nominated=false;
+    buildUI(); setDirty(true);
+  });
+}
+
+$("addNom").onclick = () => {
+  const names=[...document.querySelectorAll("#nomChecks input:checked")].map(i=>i.value);
+  if(!names.length) return msg("Bitte mindestens eine Person auswählen.","err");
+  const tag="Tag "+(+$("nomTag").value||1), von=$("nomVon").value.trim()||null, url=$("nomUrl").value.trim();
+  names.forEach(name=>{
+    D.noms.push({tag,name,von,ergebnis:"Nominiert, Entscheidung offen",url});
+    D.cast.find(c=>c.name===name).nominated=true;
+  });
+  $("nomVon").value=""; $("nomUrl").value="";
+  msg(names.length+" Nominierung(en) eingetragen. Jetzt unten veröffentlichen.","ok");
+  buildUI(); setDirty(true);
+};
+
+$("addEx").onclick = () => {
+  const name=$("exName").value; if(!name) return msg("Keine Person ausgewählt.","err");
+  const kind=$("exKind").value, tag="Tag "+(+$("exTag").value||1), url=$("exUrl").value.trim();
+  const label = kind==="win" ? `Gewinner:in (${tag})` : `Ausgezogen (${tag})`;
+  const open = D.noms.filter(n=>n.name===name && /^Nominiert/.test(n.ergebnis));
+  if(open.length) open.forEach(n=>{n.ergebnis=label; if(url) n.url=url;});
+  else D.noms.push({tag,name,von:null,ergebnis:label,url});
+  const c=D.cast.find(x=>x.name===name); c.status=kind; c.nominated=false;
+  $("exUrl").value="";
+  msg(`${esc(name)}: ${label} eingetragen. Jetzt unten veröffentlichen.`,"ok");
+  buildUI(); setDirty(true);
+};
+
+$("resetNoms").onclick = () => {
+  const open=D.noms.filter(n=>/^Nominiert, Entscheidung offen/.test(n.ergebnis));
+  if(!open.length) return msg("Keine offenen Nominierungen.","err");
+  if(!confirm(`${open.length} offene Nominierung(en) als „Gerettet“ markieren?`)) return;
+  open.forEach(n=>n.ergebnis="Gerettet");
+  D.cast.forEach(c=>c.nominated=false);
+  buildUI(); setDirty(true); msg("Runde abgeschlossen. Jetzt unten veröffentlichen.","ok");
+};
+
+$("publish").onclick = async () => {
+  if(!remote()) return;
+  $("publish").disabled=true; msg("Veröffentliche …");
+  try{
+    D.updated = nowStr();
+    const c=cfg();
+    const res = await api("contents/data.json",{method:"PUT",body:JSON.stringify({
+      message:"Admin: Nominierungen/Auszüge aktualisiert",
+      content:b64enc(JSON.stringify(D,null,1)+"\n"), sha, branch:c.branch})});
+    sha=res.content.sha; setDirty(false);
+    msg("Gespeichert. Die Seite ist in ca. 1–2 Minuten aktualisiert (GitHub baut sie neu).","ok");
+  }catch(e){
+    $("publish").disabled=false;
+    msg(/409|422/.test(e.message)
+      ? "Zwischenzeitlich wurde die Datei auf GitHub geändert (z. B. vom Stunden-Job). Bitte „Verbinden &amp; laden“ klicken und die Änderung erneut eintragen."
+      : "Speichern fehlgeschlagen: "+esc(e.message),"err");
+  }
+};
+
+$("dl").onclick = () => {
+  D.updated = nowStr();
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([JSON.stringify(D,null,1)+"\n"],{type:"application/json"}));
+  a.download="data.json"; a.click();
+};
+
+$("saveConn").onclick = () => {
+  const c=cfg(); store.set("pbb_repo",c.repo); store.set("pbb_branch",c.branch); store.set("pbb_token",c.token); load();
+};
+$("forget").onclick = () => { store.del("pbb_token"); $("token").value=""; load(); };
+
+(function init(){
+  if(store.get("pbb_repo")) $("repo").value=store.get("pbb_repo");
+  if(store.get("pbb_branch")) $("branch").value=store.get("pbb_branch");
+  $("token").value=store.get("pbb_token");
+  if(!remote()) $("conn").open=true;
+  load();
+})();
+addEventListener("beforeunload",e=>{ if(dirty){ e.preventDefault(); e.returnValue=""; }});
+</script>
+</body>
+</html>

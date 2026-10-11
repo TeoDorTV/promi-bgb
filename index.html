@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PBB Fanzone – Promi Big Brother 2026</title>
+<meta name="description" content="Inoffizielle Fanseite zu Promi Big Brother 2026: Bewohner, Tagebuch, Sendezeiten, Archiv.">
+<style>
+:root{--bg:#07070a;--panel:#14141a;--panel2:#1d1d25;--line:#2c2c36;--text:#f5f5f5;--muted:#a6a6b2;--yellow:#ffd400;--gold:#ffb800;--garden:#7ed957;--red:#ff2d55}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+ background:
+ radial-gradient(900px 420px at 80% -80px,rgba(255,212,0,.22),transparent 70%),
+ radial-gradient(700px 400px at 0% 30%,rgba(126,217,87,.08),transparent 70%),
+ url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cg fill='none' stroke='%23ffd400' stroke-opacity='.05' stroke-width='2'%3E%3Cpath d='M10 60Q60 20 110 60Q60 100 10 60Z'/%3E%3Ccircle cx='60' cy='60' r='12'/%3E%3C/g%3E%3C/svg%3E"),var(--bg)}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.14) 0 1px,transparent 1px 3px);z-index:50}
+a{color:var(--yellow)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.ticker{background:var(--yellow);color:#000;font-weight:900;text-transform:uppercase;letter-spacing:.05em;font-size:.8rem;text-align:center;padding:6px 16px}
+.ticker .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--red);margin-right:8px;animation:p 1.2s infinite}
+@keyframes p{50%{opacity:.2}}
+header.top{position:sticky;top:0;z-index:20;background:rgba(7,7,10,.96);backdrop-filter:blur(8px);border-bottom:3px solid var(--yellow);box-shadow:0 6px 24px rgba(0,0,0,.6)}
+.bar{display:flex;align-items:center;gap:16px;padding:10px 0}
+.logo{display:flex;align-items:center;gap:8px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;font-family:Impact,"Arial Narrow Bold","Arial Black",sans-serif;font-size:1.25rem}
+.logo svg{width:34px;height:34px}
+.logo b{color:var(--yellow)}
+nav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1}
+nav::-webkit-scrollbar{display:none}
+nav a{color:var(--text);text-decoration:none;padding:7px 14px;font-size:.85rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;transform:skewX(-10deg);border:1px solid var(--line);background:var(--panel)}
+nav a:hover{border-color:var(--yellow)}
+nav a.on{background:var(--yellow);color:#000;border-color:var(--yellow)}
+section{display:none;padding:30px 0 52px}
+section.on{display:block}
+h1,h2{font-family:Impact,"Arial Narrow Bold","Arial Black",sans-serif;text-transform:uppercase;letter-spacing:.02em}
+h1{font-size:clamp(2.6rem,9vw,5rem);line-height:.95;margin:.15em 0;font-weight:400}
+h1 em{font-style:normal;color:#000;background:var(--yellow);padding:0 .15em;display:inline-block;transform:skewX(-8deg)}
+h2{font-size:2rem;font-weight:400;margin:0 0 .3em;display:inline-block;background:var(--yellow);color:#000;padding:2px 16px 2px 12px;transform:skewX(-8deg);box-shadow:5px 5px 0 #000,5px 5px 0 1px var(--yellow);border:0}
+h3{margin:.2em 0;text-transform:uppercase;letter-spacing:.02em}
+.lead{color:var(--muted);max-width:62ch}
+.hero{display:grid;gap:24px;grid-template-columns:1fr;align-items:center;margin-bottom:26px}
+@media(min-width:760px){.hero{grid-template-columns:1.3fr 1fr}}
+.eye{width:100%;max-width:320px;justify-self:center;filter:drop-shadow(0 0 30px rgba(255,212,0,.45));animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-6px)}}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-top:4px solid var(--yellow);padding:16px;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,0 100%)}
+.card.hl{background:linear-gradient(180deg,#2a2300,var(--panel))}
+.card.garden{border-top-color:var(--garden)}
+.card.nom{box-shadow:inset 0 0 0 2px var(--red)}
+.big{font-family:Impact,"Arial Narrow Bold",sans-serif;font-size:1.7rem;color:var(--yellow);text-transform:uppercase}
+.tag{display:inline-block;font-size:.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.04em;padding:2px 9px;background:var(--panel2);color:var(--muted);border:1px solid var(--line);transform:skewX(-8deg);margin:2px 2px 2px 0}
+.tag.in{color:#000;background:var(--yellow);border-color:var(--yellow)}
+.tag.haus{color:#000;background:var(--gold);border-color:var(--gold)}
+.tag.garten{color:#000;background:var(--garden);border-color:var(--garden)}
+.tag.nom{color:#fff;background:var(--red);border-color:var(--red)}
+.tag.nodata{font-style:italic;text-transform:none}
+.src{font-size:.82rem;color:var(--muted);margin-top:16px;padding-top:10px;border-top:1px dashed var(--line)}
+.nodata-txt{color:var(--muted);font-style:italic}
+.avatar{width:56px;height:56px;border-radius:50%;background:var(--panel2);border:2px solid var(--yellow);display:grid;place-items:center;font-weight:900;color:var(--yellow);font-size:1.2rem;margin-bottom:8px}
+.news{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.news li{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--yellow);padding:12px 14px}
+.news small{color:var(--yellow);font-weight:800}
+.table{width:100%;overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:560px;background:var(--panel)}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--yellow);color:#000;text-transform:uppercase;font-size:.8rem;letter-spacing:.05em}
+tr:last-child td{border-bottom:0}
+.day{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--yellow);padding:16px;margin-bottom:14px}
+.day h3{color:var(--yellow)}
+.day ul{margin:.4em 0;padding-left:1.2em}
+.notice{background:#201a00;border:1px solid var(--yellow);border-left:6px solid var(--yellow);padding:10px 14px;margin:16px 0;font-size:.92rem}
+.two{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:700px){.two{grid-template-columns:1fr 1fr}}
+.photo{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--panel2);margin-bottom:4px}
+.photo img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;transition:transform .3s}
+.photo:hover img{transform:scale(1.04)}
+.photo .ph{position:absolute;inset:0;display:grid;place-items:center;font-family:Impact,sans-serif;font-size:2.8rem;color:var(--yellow);background:var(--panel2)}
+.out .photo img{filter:grayscale(1) brightness(.7)}
+.credit{font-size:.72rem;color:var(--muted);margin-bottom:10px}
+.credit a{color:var(--muted)}
+.mini{width:44px;height:44px;border-radius:50%;overflow:hidden;position:relative;background:var(--panel2);flex:none;border:2px solid var(--yellow);display:block}
+.mini img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.mini .ph{position:absolute;inset:0;display:grid;place-items:center;font-weight:800;color:var(--yellow);font-size:.85rem;background:var(--panel2)}
+.who{display:flex;align-items:center;gap:10px}
+footer{border-top:3px solid var(--yellow);background:#000;padding:24px 0;text-align:center;color:var(--muted);font-size:.9rem}
+footer strong{color:var(--yellow)}
+
+body::before{content:"";position:fixed;inset:-20%;z-index:-1;pointer-events:none;
+ background:
+ conic-gradient(from 200deg at 15% -10%,transparent 0 8%,rgba(255,212,0,.16) 10%,transparent 14%),
+ conic-gradient(from 160deg at 85% -10%,transparent 0 8%,rgba(255,212,0,.13) 10%,transparent 14%),
+ conic-gradient(from 180deg at 50% -20%,transparent 0 6%,rgba(255,255,255,.07) 8%,transparent 11%);
+ animation:beams 14s ease-in-out infinite alternate}
+@keyframes beams{from{transform:rotate(-3deg) scale(1.05)}to{transform:rotate(3deg) scale(1.15)}}
+.bgeye{position:fixed;z-index:-1;pointer-events:none;opacity:.07;color:var(--yellow);animation:drift 22s ease-in-out infinite alternate}
+.bgeye svg{width:100%;height:100%}
+.bgeye.e1{width:420px;height:420px;right:-120px;top:22%}
+.bgeye.e2{width:300px;height:300px;left:-100px;bottom:8%;animation-delay:-8s}
+@keyframes drift{from{transform:translateY(-20px) rotate(-6deg)}to{transform:translateY(30px) rotate(6deg)}}
+@media(prefers-reduced-motion:reduce){body::before,.bgeye,.eye{animation:none}}
+</style>
+
+</head>
+<body>
+<div class="bgeye e1" aria-hidden="true"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3"><path d="M3 50Q50 6 97 50Q50 94 3 50Z"/><circle cx="50" cy="50" r="18" fill="currentColor"/><circle cx="50" cy="50" r="7" fill="#000" stroke="none"/></svg></div><div class="bgeye e2" aria-hidden="true"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3"><path d="M3 50Q50 6 97 50Q50 94 3 50Z"/><circle cx="50" cy="50" r="18" fill="currentColor"/><circle cx="50" cy="50" r="7" fill="#000" stroke="none"/></svg></div><div class="ticker"><span class="dot"></span><span id="upd"></span> · Live täglich 20:15 Uhr · SAT.1 &amp; Joyn</div>
+<header class="top"><div class="wrap bar">
+  <div class="logo"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M5 50Q50 8 95 50Q50 92 5 50Z" fill="#000" stroke="#ffd400" stroke-width="6"/><circle cx="50" cy="50" r="17" fill="#ffd400"/><circle cx="50" cy="50" r="7" fill="#000"/></svg><span><b>PBB</b> Fanzone</span></div>
+  <nav id="nav">
+    <a href="#start">Start</a><a href="#bewohner">Bewohner</a><a href="#tagebuch">Tagebuch</a><a href="#nominierungen">Nominierungen</a><a href="#schauen">Wo schauen</a><a href="#show">Show-Infos</a><a href="#archiv">Archiv</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<!-- START -->
+<section id="start">
+  <div class="hero">
+    <div>
+      <span class="tag in">Staffel 14 läuft</span>
+      <h1>Promi <em>Big Brother</em> 2026</h1>
+      <p class="lead">Alles, was Fans wissen müssen: Wer wohnt im Haus, wer nervt wen und wo läuft das Ganze überhaupt? Locker erzählt, aber sauber belegt.</p>
+    </div>
+    <svg class="eye" viewBox="0 0 200 200" role="img" aria-label="Eigene Grafik: stilisiertes Auge"><circle cx="100" cy="100" r="92" fill="#16161a" stroke="#ffd400" stroke-width="6"/><path d="M20 100 Q100 28 180 100 Q100 172 20 100Z" fill="#000" stroke="#ffd400" stroke-width="5"/><circle cx="100" cy="100" r="30" fill="#ffd400"/><circle cx="100" cy="100" r="13" fill="#000"/><circle cx="110" cy="90" r="5" fill="#fff"/></svg>
+  </div>
+  <div class="cards">
+    <div class="card hl"><span class="tag">Sendestart</span><div class="big">Mo, 5. Oktober 2026</div><div>20:15 Uhr live in SAT.1 und auf Joyn</div></div>
+    <div class="card"><span class="tag">Hauptshow</span><div class="big">Täglich 20:15 Uhr</div><div>Live in SAT.1 und auf Joyn</div></div>
+    <div class="card"><span class="tag">Livestream</span><div class="big">24/7 auf Joyn</div><div>Ungeschnitten, seit dem Start am 5.10.</div></div>
+    <div class="card"><span class="tag">Moderation</span><div class="big">Lufen &amp; Schropp</div><div>Marlene Lufen und Jochen Schropp</div></div>
+  </div>
+  <h2 style="margin-top:32px">News</h2>
+  <p class="lead">Neueste zuerst.</p>
+  <ul class="news" id="newsList"></ul>
+  <div class="src">Quellen: <a href="https://www.joyn.de/bts/serien/promi-big-brother" target="_blank" rel="noopener">Joyn – Promi Big Brother: Alle News</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/sendetermine-sendezeiten-und-alle-livestream-infos-156027" target="_blank" rel="noopener">Joyn – Sendetermine</a></div>
+</section>
+
+<!-- BEWOHNER -->
+<section id="bewohner">
+  <h2>Bewohner</h2>
+  <p class="lead">14 Promis sind eingezogen. Klick aufs Foto führt zur Joyn-Seite. Stand nach Folge 6: Alle 14 sind noch dabei, sechs stehen auf der Exit-Liste (rot markiert). Wer im Luxus-Haus und wer im Garten wohnt, zeigen die Labels.</p>
+  <div class="cards" id="cast"></div>
+  <div class="notice">Ausgeschieden oder Gewinner: <span class="nodata-txt">Noch keine offiziellen Infos</span><br><small>Nominierungen und Wohnbereiche (Stand nach Folge 6) stammen aus einem <a href="https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html" target="_blank" rel="noopener">sol.de-Artikel</a> (Hinweis des Seitenbetreibers); eine direkte Bestätigung auf sat1.de/joyn.de habe ich noch nicht gefunden.</small></div>
+  <div class="src">Quellen: <a href="https://www.joyn.de/bts/serien/promi-big-brother/wer-zieht2026-ein-das-ist-der-cast-178508" target="_blank" rel="noopener">Joyn – Cast 2026</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/2026-so-stimmst-du-ab-alle-infos-zu-den-votings-in-den-live-shows-6512" target="_blank" rel="noopener">Joyn – Votings (Kandidatenliste)</a> · Fotos und Profil-Links: jeweilige Joyn-Seite des Kandidaten (Original-URLs, hotgelinkt). Alle Links führen zur offiziellen Joyn-Kandidatenseite.</div>
+</section>
+
+<!-- TAGEBUCH -->
+<section id="tagebuch">
+  <h2>Tagebuch</h2>
+  <p class="lead">Nach Tag sortiert, neuester Tag oben. Nur, was in den Joyn-Artikeln steht.</p>
+  <div id="diary"></div>
+  
+  <div class="src">Quellen: <a href="https://www.joyn.de/serien/promi-big-brother" target="_blank" rel="noopener">Joyn – Mediathek (Folgen Tag 1–6)</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/nach-liebes-eklat-bei-pbb-nina-bridney-verzeiht-christian-lell-aber-vergisst-nicht-199416" target="_blank" rel="noopener">Joyn – Nina &amp; Christian</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/nach-finger-bruch-maurice-dziwak-ist-zurueck-bei-pbb-199817" target="_blank" rel="noopener">Joyn – Maurice</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/pbb-die-late-night-show-heute-dilara-kruse-und-sandy-faehse-zu-gast-186587" target="_blank" rel="noopener">Joyn – Late Night Show Tag 7</a></div>
+</section>
+
+<!-- NOMINIERUNGEN -->
+<section id="nominierungen">
+  <h2>Nominierungen &amp; Auszüge</h2>
+  <p class="lead">Wer musste zittern, wer hat gepackt?</p>
+  <div class="table"><table>
+    <thead><tr><th>Tag</th><th>Name</th><th>Nominiert von</th><th>Ergebnis</th><th>Quelle</th></tr></thead>
+    <tbody id="nomTable"></tbody>
+  </table></div>
+  <div class="notice"><strong>Wichtig zur Quelle:</strong> Diese Nominierungen stammen aus einem sol.de-Artikel, den der Seitenbetreiber genannt hat (laut ihm basiert er auf Sat.1/Joyn). Auf sat1.de und joyn.de selbst habe ich sie trotz Suche in Mediathek, News, Kandidaten- und Votings-Seiten bisher nicht gefunden. Nach Folge 6 stehen sechs Promis auf der Exit-Liste, ein Auszug ist laut Artikel noch nicht entschieden. Wer genau nominiert hat, steht nur für Anouschka Renzi: Das Verlierer-Team nominierte an Tag 6 eine Person aus dem eigenen Wohnbereich.</div>
+  <div class="src">Quellen: <a href="https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html" target="_blank" rel="noopener">sol.de – Wer ist nominiert?</a> · <a href="https://www.joyn.de/serien/promi-big-brother" target="_blank" rel="noopener">Joyn – Mediathek Promi Big Brother</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother" target="_blank" rel="noopener">Joyn – News</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/2026-so-stimmst-du-ab-alle-infos-zu-den-votings-in-den-live-shows-6512" target="_blank" rel="noopener">Joyn – So stimmst du ab</a></div>
+</section>
+
+<!-- WO SCHAUEN -->
+<section id="schauen">
+  <h2>Wo schauen?</h2>
+  <div class="cards">
+    <div class="card hl"><h3>📺 TV: SAT.1</h3><p>Hauptshow täglich um 20:15 Uhr live.</p></div>
+    <div class="card"><h3>📱 Joyn Livestream</h3><p>Die Hauptshow läuft parallel live auf Joyn. Dazu gibt es den <strong>24-Stunden-Livestream</strong> – ohne Schnitt, exklusiv auf Joyn, seit 5.10., 20:15 Uhr.</p></div>
+    <div class="card"><h3>▶️ Mediathek</h3><p>Alle Folgen kostenlos in der Joyn-Mediathek, kurz nach der TV-Ausstrahlung.</p></div>
+    <div class="card"><h3>🌙 Late Night Show</h3><p>„Promi Big Brother – Die Late Night Show“ läuft im Anschluss an die Hauptshow, live in SAT.1 oder im Stream auf Joyn. Genaue Uhrzeit: <span class="nodata-txt">Noch keine offiziellen Infos</span> (eine Joyn-Seite nennt „meist ab 22:30 Uhr“, eine andere 22:20 Uhr – die Angaben widersprechen sich).</p></div>
+  </div>
+  <p>Finale-Termin: <span class="nodata-txt">Noch keine offiziellen Infos</span></p>
+  <div class="src">Quellen: <a href="https://www.joyn.de/bts/serien/promi-big-brother/sendetermine-sendezeiten-und-alle-livestream-infos-156027" target="_blank" rel="noopener">Joyn – Sendetermine &amp; Livestream</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/taeglicher24-stunden-livestream2026-wie-du-ihn-auf-joyn-siehst-14550" target="_blank" rel="noopener">Joyn – 24/7-Livestream</a></div>
+</section>
+
+<!-- SHOW -->
+<section id="show">
+  <h2>Moderation &amp; Show-Infos</h2>
+  <div class="cards">
+    <div class="card"><h3>Hauptshow</h3><p>Marlene Lufen und Jochen Schropp – laut Joyn ihre neunte gemeinsame Staffel.</p></div>
+    <div class="card"><h3>Late Night Show</h3><p>Jochen Bendel analysiert die Geschehnisse. Laut Joyn moderiert er erstmals ohne Melissa Khalaj im großen Studio.</p></div>
+  </div>
+  <h3 style="margin-top:24px">Konzept: Haus und Garten</h3>
+  <p>Die Promis tauschen den roten Teppich gegen totale Überwachung und müssen tägliche Herausforderungen meistern. Das Gelände ist in zwei Bereiche geteilt, getrennt von einem beweglichen Gartenzaun.</p>
+  <div class="cards">
+    <div class="card"><h3>🏠 Haus (ca. 190 m²)</h3><ul><li>Bequeme Betten, großes Bad, Whirlpool</li><li>Wohnzimmer mit offener Küche</li><li>Außenlounge mit Sofas und Bar</li><li>Alles im Überfluss</li></ul></div>
+    <div class="card"><h3>🌱 Garten (ca. 95 m²)</h3><ul><li>Alte Gartenhütte, Beete, Feuerstelle</li><li>Pritschen oder Hängematten, nur im Freien</li><li>Täglich wechselndes Gemüse, Wasser, Kräutertee</li><li>Dusche aus der Gießkanne, Holz-WC</li><li>Einheitskleidung (z. B. Pullunder, Gummistiefel)</li></ul></div>
+  </div>
+  <h3 style="margin-top:24px">Wer wohnt wo? (Stand nach Folge 6)</h3>
+  <div class="two">
+   <div class="card"><h3>🏠 Luxus-Haus</h3><ul id="lstHaus"></ul></div>
+   <div class="card garden"><h3>🌱 Garten</h3><ul id="lstGarten"></ul></div>
+  </div>
+  <p class="src" style="border:0;margin-top:6px">Quelle: <a href="https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html" target="_blank" rel="noopener">sol.de</a> (Hinweis des Seitenbetreibers, auf joyn.de/sat1.de nicht direkt gefunden).</p>
+<h3 style="margin-top:24px">Regeln &amp; Ablauf</h3>
+  <ul>
+    <li>Big Brother entscheidet, wann sich der Zaun öffnet und wer wechseln darf.</li>
+    <li>Im Garten gibt es eine Nachtwache an der Feuerstelle (Bewohner wechseln sich ab).</li>
+    <li>Jeden Tag wird eine neue Gartenleitung gewählt.</li>
+    <li>Das Holz-WC putzen die Bewohner selbst.</li>
+    <li>Der Kiosk verkauft Lebensmittel, aber nur so weit das Budget reicht.</li>
+    <li>Abgestimmt wird per Joyn-App (einmal pro Runde kostenlos), Telefon oder SMS.</li>
+  </ul>
+  <div class="src">Quellen: <a href="https://www.joyn.de/bts/serien/promi-big-brother/luxus-haus-oder-garten-so-sehr-unterscheiden-sich-die-bereiche-195497" target="_blank" rel="noopener">Joyn – Haus &amp; Garten</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/2026-so-stimmst-du-ab-alle-infos-zu-den-votings-in-den-live-shows-6512" target="_blank" rel="noopener">Joyn – Votings</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother" target="_blank" rel="noopener">Joyn – Übersicht</a></div>
+</section>
+
+<!-- ARCHIV -->
+<section id="archiv">
+  <h2>Archiv</h2>
+  <p class="lead">Die Gewinner früherer Staffeln, soweit auf Joyn/Sat.1 belegt.</p>
+  <div class="table"><table>
+    <thead><tr><th>Staffel</th><th>Jahr</th><th>Gewinner:in</th><th>Kurzinfo</th></tr></thead>
+    <tbody id="archive"></tbody>
+  </table></div>
+  <div class="src">Quellen: <a href="https://www.joyn.de/bts/serien/promi-big-brother/news/pbb-alle-gewinnerinnen-und-gewinner-der-vergangenen-staffeln-auf-einen-blick-8287" target="_blank" rel="noopener">Joyn – Alle Gewinner</a> · <a href="https://www.sat1.de/serien/promi-big-brother/news/pbb-alle-gewinnerinnen-und-gewinner-der-letzten-staffeln-auf-einen-blick-447721" target="_blank" rel="noopener">Sat.1 – Alle Gewinner</a> · <a href="https://www.joyn.de/bts/serien/promi-big-brother/jimi-blue-ochsenknecht-ist-der-gewinner-der13-staffel-promi-big-brother-22371" target="_blank" rel="noopener">Joyn – Staffel 13</a></div>
+</section>
+
+</main>
+
+<footer><div class="wrap"><strong>Inoffizielle Fanseite – alle Infos und Bilder stammen von Sat.1 und Joyn. Alle Rechte liegen bei den jeweiligen Rechteinhabern.</strong><br>Kein offizielles Sendungslogo, der Schriftzug ist eigen.</div></footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+const ini = n => n.split(" ").map(w=>w[0]).join("").slice(0,2);
+const nodata = '<span class="nodata-txt">Noch keine offiziellen Infos</span>';
+
+function photoBox(c,cls){return `<span class="${cls}"><span class="ph">${ini(c.name)}</span><img src="${esc(c.img)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></span>`}
+
+function render(D){
+  const byName = Object.fromEntries(D.cast.map(c=>[c.name,c]));
+  $("upd").textContent = "Zuletzt aktualisiert: " + D.updated;
+
+  // News, neueste zuerst
+  const news = [...D.news].sort((a,b)=>b.iso.localeCompare(a.iso));
+  $("newsList").innerHTML = news.map(n=>`<li><small>${esc(n.date)}</small><br><strong>${esc(n.title)}</strong>${n.text?"<br>"+esc(n.text):""} <a href="${esc(n.url)}" target="_blank" rel="noopener">Weiterlesen auf Joyn</a></li>`).join("");
+
+  // Bewohner
+  $("cast").innerHTML = D.cast.map(c=>{
+    const out=c.status==="out", win=c.status==="win";
+    const tag = win?'<span class="tag in">Gewinner:in</span>':out?'<span class="tag">Ausgeschieden</span>':'<span class="tag in">Noch dabei</span>';
+    const ar = c.area ? `<span class="tag ${c.area==="Haus"?"haus":"garten"}">${c.area==="Haus"?"Luxus-Haus":"Garten"}</span>` : "";
+    const nm = c.nominated ? ' <span class="tag nom">Nominiert (Exit-Liste)</span>' : "";
+    return `<div class="card ${out?"out":""} ${c.area==="Garten"?"garden":""} ${c.nominated?"nom":""}"><a class="photo" href="${esc(c.url)}" target="_blank" rel="noopener" title="Zur offiziellen Joyn-Seite: ${esc(c.name)}"><span class="ph">${ini(c.name)}</span><img src="${esc(c.img)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></a><div class="credit">Foto: © Sat.1 / Joyn · <a href="${esc(c.url)}" target="_blank" rel="noopener">Original</a></div><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p>${tag} ${ar}${nm}</div>`;
+  }).join("");
+
+  // Haus / Garten Listen
+  const list = a => D.cast.filter(c=>c.area===a).map(c=>`<li>${esc(c.name)}</li>`).join("");
+  $("lstHaus").innerHTML = list("Haus"); $("lstGarten").innerHTML = list("Garten");
+
+  // Nominierungen
+  $("nomTable").innerHTML = D.noms.length ? D.noms.map(r=>{
+    const c=byName[r.name];
+    return `<tr><td>${esc(r.tag)}</td><td><div class="who">${c?photoBox(c,"mini"):""}${esc(r.name)}</div></td><td>${r.von?esc(r.von):nodata}</td><td>${esc(r.ergebnis)}</td><td>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${/sol\.de/.test(r.url)?"sol.de":"Quelle"}</a>`:"<small>Eigene Angabe</small>"}</td></tr>`;
+  }).join("") : '<tr><td colspan="5" class="nodata-txt">Bisher keine Nominierungen oder Auszüge in den Sat.1/Joyn-Quellen gefunden.</td></tr>';
+
+  // Tagebuch: Folgen (automatisch) + eigene Ergänzungen
+  const days = {};
+  (D.episodes||[]).forEach(e=>{days[e.day]={day:e.day,title:e.title,items:[e.text],link:e.url}});
+  (D.diary_manual||[]).forEach(m=>{
+    const n=+m.tag.replace(/\D/g,"");
+    const d=days[n]||(days[n]={day:n,title:m.title,items:[]});
+    d.items=d.items.concat(m.items);
+  });
+  $("diary").innerHTML = Object.values(days).sort((a,b)=>b.day-a.day).map(d=>
+    `<div class="day"><span class="tag">Tag ${d.day}</span><h3>${esc(d.title)}</h3><ul>${d.items.filter(Boolean).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>${d.link?`<a href="${esc(d.link)}" target="_blank" rel="noopener">Folge auf Joyn ansehen</a>`:""}</div>`).join("");
+
+  // Archiv
+  $("archive").innerHTML = D.arch.map(a=>`<tr><td>${esc(a[0])}</td><td>${esc(a[1])}</td><td>${a[2]??nodata}</td><td>${a[3]??nodata}</td></tr>`).join("");
+}
+
+// Tabs per Hash
+const secs=[...document.querySelectorAll("section")], links=[...document.querySelectorAll("#nav a")];
+function route(){
+  const id=(location.hash||"#start").slice(1);
+  const t=secs.find(s=>s.id===id)||secs[0];
+  secs.forEach(s=>s.classList.toggle("on",s===t));
+  links.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+t.id));
+  window.scrollTo(0,0);
+}
+addEventListener("hashchange",route);route();
+
+fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(render).catch(e=>{
+  $("upd").textContent="Daten konnten nicht geladen werden";
+  console.error(e);
+});
+</script>
+
+</body>
+</html>

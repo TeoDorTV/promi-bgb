@@ -1,0 +1,60 @@
+name: Daten aktualisieren und Seite veröffentlichen
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # jede Stunde, Minute 7
+  workflow_dispatch:       # manuell startbar
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Daten von Joyn holen
+        run: python scripts/update.py
+
+      - name: Geänderte Daten speichern
+        run: |
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git config user.name "pbb-bot"
+            git config user.email "pbb-bot@users.noreply.github.com"
+            git add data.json
+            git commit -m "Daten aktualisiert"
+            git pull --rebase
+            git push
+          else
+            echo "Keine Änderungen an data.json"
+          fi
+
+      - name: Seite zusammenstellen
+        run: |
+          mkdir site
+          cp index.html admin.html data.json site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

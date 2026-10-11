@@ -1,0 +1,417 @@
+{
+ "updated": "11.10.2026, 15:54 Uhr",
+ "cast": [
+  {
+   "name": "Kim Virginia",
+   "desc": "Reality-Queen, bekannt als „Queen of the Plot“. Zieht gemeinsam mit ihrem Mann Nikola Grey ein.",
+   "img": "https://img.joyn.de/lido/images/2026/10/03/8d4a8062-607d-4ece-bae4-19a7e4e11c03.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A208%2C%22width%22%3A1400%2C%22height%22%3A787%7D%2C%22height%22%3A1080%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-kim-virginia-195186",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Nikola Grey",
+   "desc": "Reality-Star, Gewinner von „Prominent getrennt“.",
+   "img": "https://img.joyn.de/lido/images/2026/10/03/74ab8c1e-67a9-4a8a-8b00-c7e553e376eb.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A63%2C%22width%22%3A1400%2C%22height%22%3A787%7D%2C%22height%22%3A1080%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-nicola-grey-195212",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Tessa Bergmeier",
+   "desc": "Model und Reality-Star, bekannt von GNTM 2009 und als vegane Aktivistin.",
+   "img": "https://img.joyn.de/lido/images/2026/10/03/56a73dc7-6c94-4355-a7f0-83feb0b8f702.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A59%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-tessa-bergmeier-195373",
+   "area": "Garten",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Anouschka Renzi",
+   "desc": "Schauspielerin mit über 40 Jahren Bühnen- und Screen-Erfahrung, auch aus Reality-Formaten bekannt.",
+   "img": "https://img.joyn.de/lido/images/2026/10/03/0c580f8a-70b6-430f-b96f-cf62a4b3d2f0.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A59%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-anouschka-renzi-195123",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Axel Schulz",
+   "desc": "Ex-Schwergewichtsboxer, erster Reality-TV-Auftritt.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/2019eb69-7aa3-4b8f-9a8f-8726e50f42c1.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A63%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-axel-schulz-178328",
+   "area": "Garten",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Nadja Benaissa",
+   "desc": "Sängerin, früher bei den No Angels, bekannt aus der ersten „Popstars“-Staffel.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/069301ef-679e-4322-81c8-2a1596726513.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-nadja-benaissa-178880",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Redo",
+   "desc": "Berliner Gastronom und Social-Media-Figur, viral bekannt.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/217df677-6e1d-4682-a313-a55eeac3a70c.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A54%2C%22width%22%3A1400%2C%22height%22%3A787%7D%2C%22height%22%3A1080%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-redo-178899",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Maurice Dziwak",
+   "desc": "Reality-Star aus „Promis unter Palmen“ und „Dschungelcamp“.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/4611b7f6-0f31-4a52-be7f-51ea73349c03.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A66%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-maurice-dziwak-178854",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Christian Lell",
+   "desc": "Ex-FC-Bayern-Spieler, zweimaliger Double-Gewinner.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/a9485ad0-4849-4437-96a9-89b0b8a718e8.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A38%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-christian-lell-178517",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Gia Georgina",
+   "desc": "Creatorin und Podcasterin, bekannt als Sidos Ex-Partnerin.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/e06c8692-1821-432b-a717-b1202f1cfabb.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A22%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-gia-georgina-178838",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  },
+  {
+   "name": "Gedeon Burkhard",
+   "desc": "Schauspieler, bekannt als Hauptdarsteller von „Kommissar Rex“.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/88fb1feb-6c95-4848-8345-90180e34ce1e.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A109%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-gedeon-burkhard-178718",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Nina Bridney",
+   "desc": "Streamerin und Content Creatorin, erstes Reality-Format.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/9d562a34-23d1-48f4-be16-b9bde8d34d79.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A121%2C%22y%22%3A60%2C%22width%22%3A1909%2C%22height%22%3A1074%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-nina-bridney-178894",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Godfrey Egbon",
+   "desc": "Zweiter bei „Germany’s Next Topmodel“, will hier gewinnen.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/2bbbbe67-bfce-4fc3-a745-bf7927bf21e9.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A66%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-godfrey-egbon-178758",
+   "area": "Garten",
+   "status": "in",
+   "nominated": true
+  },
+  {
+   "name": "Francesca Morgese",
+   "desc": "Reality-Persönlichkeit, 2020 Siegerin von „The Bachelor“ in der Schweiz.",
+   "img": "https://img.joyn.de/lido/images/2026/09/02/b57608fe-32a1-46e8-9e04-01bfc954d1c6.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A81%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-francesca-morgese-178558",
+   "area": "Haus",
+   "status": "in",
+   "nominated": false
+  }
+ ],
+ "news": [
+  {
+   "iso": "2026-10-11T12:50",
+   "date": "11.10.2026, 14:50 Uhr",
+   "title": "Finger gebrochen? Maurice Dziwak ist zurück bei \"Promi Big Brother\"",
+   "text": "Seit der Live-Show am 11. Oktober ist der Arm von Maurice Dziwak bandagiert. Was genau ist bei \"Promi Big Brother\" passiert? Und macht er trotz Verletzung weiter?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/nach-finger-bruch-maurice-dziwak-ist-zurueck-bei-pbb-199817"
+  },
+  {
+   "iso": "2026-10-11T12:28",
+   "date": "11.10.2026, 14:28 Uhr",
+   "title": "\"War alles furchtbar\": \"Promi Big Brother\"-Bewohnerin Gia Georgina packt über On-Off-Beziehung aus",
+   "text": "Gia Georgina öffnet sich bei \"Promi Big Brother über eine schwierige Phase in ihrem Leben. In einer früheren On-Off-Beziehung seien \"extreme Streitereien\" gang und gäbe gewesen.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-gia-georgina-ueber-on-off-beziehung-mit-ihrem-ex-partner-199796"
+  },
+  {
+   "iso": "2026-10-10T22:15",
+   "date": "11.10.2026, 00:15 Uhr",
+   "title": "\"Promi Big Brother\"-Tessa Bergmeier über ihre schreckliche Kindheit: \"Überall auf der Flucht\"",
+   "text": "\"Löwenmama\" Tessa hat schon viel durchstehen müssen. Gegenüber \"Promi Big Brother\"-Bewohner Christian spricht die 37-Jährige offen über ihre Kindheit - und die Gewalt, die sie erfahren musste.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/bewohnerin-tessa-bergmeier-so-schrecklich-war-ihre-kindheit-199549"
+  },
+  {
+   "iso": "2026-10-10T20:43",
+   "date": "10.10.2026, 22:43 Uhr",
+   "title": "\"Promi Big Brother\"-Nikola bricht in Tränen aus: \"Jeder, der eine Schwangerschaft faked, ist krank!\"",
+   "text": "Heftiges Statement von \"Promi Big Brother\"-Bewohner Nikola! Im Sprechzimmer bricht er in Tränen aus und äußert sich erneut zu den Vorwürfen, die gegen ihn und Kim Virginia erhoben werden.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-nikola-platzt-der-kragen-jeder-der-eine-schwangerschaft-faked-ist-krank-199535"
+  },
+  {
+   "iso": "2026-10-10T14:53",
+   "date": "10.10.2026, 16:53 Uhr",
+   "title": "Die einzigen Male im Leben: Deswegen hat \"Promi Big Brother\"-Bewohner Redo geweint",
+   "text": "Während anderen \"Promi Big Brother\"-Bewohner:innen schon mehrmals die Tränen in den letzten Tagen gekommen sind, bleibt Redo eisern. Er kann sich nur an zwei Momente im Leben erinnern, bei denen ihm jemals die Tränen über die Wangen gelaufen sind.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/die-einzigen-male-im-leben-wegen-dieser-zwei-dinge-hat-pbb-redo-geweint-199449"
+  },
+  {
+   "iso": "2026-10-10T13:31",
+   "date": "10.10.2026, 15:31 Uhr",
+   "title": "Ist das Liebes-Drama zwischen \"Promi Big Brother\"-Bewohnerin Nina Bridney und Christian Lell fake?",
+   "text": "Als Nina Bridney zurück in den Garten kommt, ist die Freude bei Christian Lell groß - zumindest vorerst. Denn sie hat von Anouschka Renzi gehört, dass er mit ihr eine Familie gründen will. Kann er die Aussagen richtig stellen - oder bahnt sich die erste richtige \"Promi Big Brother\"-Eskalation an?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/krach-im-pbb-garten-hat-christian-lell-das-liebesdrama-mit-nina-bridney-inszeniert-199416"
+  },
+  {
+   "iso": "2026-10-10T13:31",
+   "date": "10.10.2026, 15:31 Uhr",
+   "title": "Nach Liebes-Eklat bei \"Promi Big Brother\": Nina verzeiht Christian, aber \"vergisst nicht\"",
+   "text": "Als Nina Bridney zurück in den Garten kommt, ist die Freude bei Christian Lell groß - zumindest vorerst. Denn sie hat von Anouschka Renzi gehört, dass er mit ihr eine Familie gründen will. Es bahnt sich die erste richtige \"Promi Big Brother\"-Eskalation an. Macht der Ex-Fußballer nur Show?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/nach-liebes-eklat-bei-pbb-nina-bridney-verzeiht-christian-lell-aber-vergisst-nicht-199416"
+  },
+  {
+   "iso": "2026-10-10T11:54",
+   "date": "10.10.2026, 13:54 Uhr",
+   "title": "\"Schwein gehabt\": \"Promi Big Brother\"-Star Axel Schulz über Box-Anfänge in der DDR",
+   "text": "Axel Schulz erzählt bei \"Promi Big Brother\" über seine Box-Vergangenheit. Die legendären Kämpfe mit Wladimir Klitschko und George Foreman lässt er dabei nicht aus. Während die Gruppe gebannt zuhört, zählt eine Bewohnerin offenbar schon die Minuten.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-bewohner-axel-schulz-oeffnet-sich-ueber-seine-box-anfaenge-in-der-ddr-199382"
+  },
+  {
+   "iso": "2026-10-10T11:54",
+   "date": "10.10.2026, 13:54 Uhr",
+   "title": "\"Schwein gehabt\": \"Promi Big Brother\"-Star Axel Schulz öffnet sich über Box-Vergangenheit in der DDR",
+   "text": "Axel Schulz erzählt bei \"Promi Big Brother\" über seine Box-Vergangenheit. Die legendären Kämpfe mit Wladimir Klitschko und George Foreman lässt er dabei nicht aus. Während die Gruppe gebannt zuhört, zählt eine Bewohnerin offenbar schon die Minuten.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-bewohner-axel-schulz-erzaehlt-ploetzlich-ueber-seine-box-anfaenge-in-der-ddr-199382"
+  },
+  {
+   "iso": "2026-10-10T08:14",
+   "date": "10.10.2026, 10:14 Uhr",
+   "title": "In der Bahn verprügelt: \"Promi Big Brother\"-Bewohnerin Tessa Bergmeier \"lag blutend auf dem Boden\"",
+   "text": "Dass die TV-Bekanntheit zum Fluch werden kann, musste Tessa Bergmeier am eigenen Leib erfahren. Die \"Promi Big Brother\"-Bewohnerin berichtet von einer Situationen, bei denen sie von verschiedenen Leuten angefeindet und sogar verletzt wurde.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/ich-lag-blutend-auf-dem-boden-pbb-star-tessa-bergmeier-in-der-bahn-angegriffen-199304"
+  },
+  {
+   "iso": "2026-10-09T19:15",
+   "date": "09.10.2026, 21:15 Uhr",
+   "title": "Francesca Morgese verlor ihre Mutter mit 7: Bei \"Promi Big Brother\" spricht sie über den Krebs-Tod",
+   "text": "Traurige Erinnerungen bei \"Promi Big Brother\"! Bewohnerin Francesca Morgese spricht offen über den Krebstod ihrer Mutter und die schwierige Zeit, die darauf für sie folgte.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/sie-konnte-nicht-mehr-pbb-bewohnerin-francesca-ueber-den-fruehen-krebstod-ihrer-mutter-199153"
+  },
+  {
+   "iso": "2026-10-09T19:15",
+   "date": "09.10.2026, 21:15 Uhr",
+   "title": "Francesca Morgese verlor ihre Mutter mit 7: Bei \"Promi Big Brother\" redet sie über den Krebs-Tod",
+   "text": "Traurige Erinnerungen bei \"Promi Big Brother\"! Bewohnerin Francesca Morgese spricht offen über den Krebstod ihrer Mutter und die schwierige Zeit, die darauf für sie folgte.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/sie-konnte-nicht-mehr-pbb-star-francesca-spricht-ueber-den-fruehen-krebstod-ihrer-mutter-199153"
+  },
+  {
+   "iso": "2026-10-09T16:34",
+   "date": "09.10.2026, 18:34 Uhr",
+   "title": "Schamane spricht Klartext: Kim Virginia soll \"am laufenden Band\" lügen & manipulieren",
+   "text": "Leon Shankara war einst der beste Freund für \"Promi Big Brother\"-Bewohnerin Kim Virginia Grey. Nachdem nun die Freundschaft Geschichte ist, enthüllt er Details über ihre narzisstischen Züge.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/ex-bester-freund-pbb-star-kim-virginia-soll-am-laufenden-band-luegen-und-manipulieren-199002"
+  },
+  {
+   "iso": "2026-10-09T10:00",
+   "date": "09.10.2026, 12:00 Uhr",
+   "title": "Nach Vegas-Trauung: \"Promi Big Brother\" verhilft Kim Virginia und Nikola Grey zur Traumhochzeit",
+   "text": "Momentan befinden sich Kim Virginia und Nikola Grey bei \"Promi Big Brother\" in getrennten Bereichen. Vielleicht wird sich ihr Wiedersehen ja schöner gestalten, als es sich die Reality-Stars je vorstellen könnten. Am Sonntag hat SAT.1 für die beiden eine besondere Überraschung parat: eine Hochzeit.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/nach-vegas-trauung-dank-pbb-bekommen-kim-virginia-und-nikola-grey-ihre-traumhochzeit-198771"
+  },
+  {
+   "iso": "2026-10-08T00:09",
+   "date": "08.10.2026, 02:09 Uhr",
+   "title": "Ariel wirft \"Promi Big Brother\"-Bewohnerin Francesca Morgese Affäre vor: Jetzt äußert sich Giuliano",
+   "text": "Bei \"Promi Big Brother - Die Late Night Show\" spricht Ariel über Francesca Morgese und ihren Ex-Freund Giuliano Lorenzo Hediger - und wirft ihnen eine Affäre vor. Francescas Sicht der Dinge ist jedoch eine andere.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/ariel-wirft-pbb-bewohnerin-francesca-morgese-affaere-vor-was-giuliano-sagt-198046"
+  }
+ ],
+ "episodes": [
+  {
+   "day": 6,
+   "title": "Nikola Greys bewegendes Geständnis - und Nina Bridneys Flirt mit Folgen",
+   "text": "Als Francesca Morgese das Gespräch mit Nikola Grey sucht, kann er seine Gefühle nicht länger zurückhalten. In einem emotionalen Statement spricht er über Kim Virginias Schwangerschaft und die schwere Zeit, die sie gemeinsam durchstehen mussten. Währenddessen sorgt der Flirt zwischen Nina Bridney und Christian Lell im Garten von \"Promi Big Brother\" 2026 für neue Spannung: Eine unerwartete Wendung stellt alles auf den Kopf. Finden die beiden trotzdem noch zueinander?",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-6-tag-6-nikola-greys-bewegendes-gestaendnis-und-nina-bridneys-flirt-mit-folgen"
+  },
+  {
+   "day": 5,
+   "title": "Liebe mit Nina Bridney, Zoff mit Kim Virginia? Christian Lell hat Stress",
+   "text": "Christian Lell gesteht, dass er Nina Bridney attraktiv findet und die Gefühle beruhen offenbar auf Gegenseitigkeit. Mit Kim Virginia entbrennt dagegen eine hitzige Diskussion über Brust-OPs. Doch auch mit Godfrey Egbon gibt es bei \"Promi Big Brother\" 2026 noch einiges zu besprechen.",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-5-tag-5-liebe-mit-nina-bridney-zoff-mit-kim-virginia-christian-lell-hat-stress"
+  },
+  {
+   "day": 4,
+   "title": "Monogam und misstrauisch: Francesca Morgese hat Kim Virginia im Visier",
+   "text": "Kim Virginia bezeichnet sich als „monogame Maus“ und kennt nach eigener Aussage keine Eifersucht – ganz anders als Nikola Grey. Francesca Morgese bleibt beim Thema Schwangerschaft skeptisch und Marlene Kufen bringt Redo derweil Manieren bei.",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-4-tag-4-monogam-und-misstrauisch-francesca-morgese-hat-kim-virginia-im-visier"
+  },
+  {
+   "day": 3,
+   "title": "Emotionale Stunden - Nikola Grey unter Tränen und Tessa Bergmeiers Strafe",
+   "text": "Nikola Grey spricht unter Tränen über seine Schwester, die seit ihrer Geburt beeinträchtigt ist und weder sprechen noch selbstständig für sich sorgen kann. Tessa Bergmeier drohen nun harte Konsequenzen für ihren Regelverstoß bei \"Promi Big Brother\" 2026: Sie hat den Gartenbewohner:innen Essen über den Zaun gereicht. Nadja Benaissa schaut kritisch auf die Anfangszeit von No Angels zurück und was sie damals hätte besser machen können.",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-3-tag-3-emotionale-stunden-nikola-grey-unter-traenen-und-tessa-bergmeiers-strafe"
+  },
+  {
+   "day": 2,
+   "title": "Kim Virginia und Nikola Grey plaudern aus dem Nähkästchen",
+   "text": "Kim spricht offen über den Streit mit ihrem Manager und mögliche Anzeigen, während Redo mit einem überraschenden Geständnis über Unterhosen für Gesprächsstoff sorgt. Auch die eisigen Temperaturen im Garten, die fehlende warme Kleidung und die ungewöhnlichen Outfits der Bewohner:innen sorgen für reichlich Gesprächsstoff bei \"Promi Big Brother\" 2026.",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-2-tag-2-kim-virginia-und-nikola-grey-plaudern-aus-dem-naehkaestchen"
+  },
+  {
+   "day": 1,
+   "title": "Engel oder Teufel - die Tür steht für alle offen!",
+   "text": "Die zehn vorab isolierten Bewohner:innen ahnen nicht, was auf sie zukommt: Mit Anouschka Renzi, Tessa Bergmeier und dem Reality-Ehepaar Kim Virginia und Nikola Grey zieht geballte Promi-Power ins \"Promi Big Brother\" 2026-Haus! Doch noch vor dem Einzug wird es ernst: Wer darf ins luxuriöse Haus - und wer muss im Garten campieren?",
+   "url": "https://www.joyn.de/serien/promi-big-brother/2026-1-tag-1-engel-oder-teufel-die-tuer-steht-fuer-alle-offen"
+  }
+ ],
+ "diary_manual": [
+  {
+   "tag": "Tag 7",
+   "title": "Liebes-Eklat und Zaun-Zoff",
+   "items": [
+    "Christian Lell soll Kim Virginia gesagt haben, er wünsche sich mit Nina Bridney (23) eine Familie mit drei bis vier Kindern. Anouschka Renzi hörte mit und erzählte es weiter. Nina stellte ihn zur Rede.",
+    "Christian war sichtlich mitgenommen, Godfrey Egbon tröstete ihn.",
+    "Bei der ersten gemeinsamen Nachtwache kuschelten Nina und Christian. Nina mag ihn, möchte ihn aber erst besser kennenlernen.",
+    "Im Garten-Spiel zog Nina „Manipulator“ und nannte Christian.",
+    "Am Zaun gab es Streit: Godfrey warf Nina vor, die Lage falsch darzustellen, Tessa Bergmeier verteidigte sie. Nina weinte.",
+    "Später sagte Nina zu Nikola Grey, sie verzeihe, vergesse aber nicht. Nikola riet ihr zu Abstand.",
+    "Nach der Live-Show am 11.10.: Maurice Dziwak hat sich einen Finger gebrochen, wurde behandelt und zog auf eigenen Wunsch wieder ein."
+   ]
+  },
+  {
+   "tag": "Tag 6",
+   "title": "Nikola Greys Geständnis und Ninas Flirt",
+   "items": [
+    "In der Live-Show soll Christian Lell Kim Virginia zugeflüstert haben, man müsse „Drama reinmachen“."
+   ]
+  }
+ ],
+ "noms": [
+  {
+   "tag": "Tag 6",
+   "name": "Anouschka Renzi",
+   "von": "Verlierer-Team (Abstimmung im eigenen Wohnbereich), meiste Stimmen",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "bis Tag 6",
+   "name": "Redo",
+   "von": null,
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "bis Tag 6",
+   "name": "Godfrey Egbon",
+   "von": null,
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "bis Tag 6",
+   "name": "Nina Bridney",
+   "von": null,
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "bis Tag 6",
+   "name": "Nikola Grey",
+   "von": null,
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  },
+  {
+   "tag": "bis Tag 6",
+   "name": "Gedeon Burkhard",
+   "von": null,
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+  }
+ ],
+ "arch": [
+  [
+   "1",
+   "2013",
+   "Jenny Elvers",
+   "Comeback-Story nach öffentlichem Alkohol-Entzug."
+  ],
+  [
+   "2",
+   "2014",
+   "Aaron Troschke",
+   "Gewann die Herzen der Zuschauer:innen."
+  ],
+  [
+   "3",
+   "2015",
+   "David Odonkor",
+   "Ex-Fußballer, bekannt für Teamgeist und Bodenständigkeit."
+  ],
+  [
+   "4–6",
+   "2016–2018",
+   null,
+   null
+  ],
+  [
+   "7",
+   "2019",
+   "Janine Pink",
+   "Soap-Darstellerin; Finale gegen Theresia, Tobi Wegener und Joey Heindle."
+  ],
+  [
+   "8",
+   "2020",
+   "Werner Hansch",
+   "100.000 € Preisgeld; laut Jochen Schropp ältester Gewinner einer Reality-Show weltweit."
+  ],
+  [
+   "9",
+   "2021",
+   "Melanie Müller",
+   "Setzte sich u. a. gegen Uwe Abel, Papis Loveday und Danny Liedtke durch."
+  ],
+  [
+   "10",
+   "2022",
+   "Rainer Gottwald",
+   "Im Finale blieb er allein übrig."
+  ],
+  [
+   "11",
+   "2023",
+   "Yeliz Koc",
+   "Gegen Iris Klein, Jürgen Milski und Patricia Blanco."
+  ],
+  [
+   "12",
+   "2024",
+   "Leyla Lahouar",
+   "Reality-Star und Influencerin; Finale gegen Jochen Horst."
+  ],
+  [
+   "13",
+   "2025",
+   "Jimi Blue Ochsenknecht",
+   "Gewann das Finale und 100.000 €."
+  ],
+  [
+   "14",
+   "2026",
+   "läuft noch",
+   "Noch kein Gewinner."
+  ]
+ ],
+ "hinweise": []
+}
