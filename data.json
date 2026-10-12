@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 20:30 Uhr",
+ "updated": "12.10.2026, 20:57 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -62,7 +62,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-redo-178899",
    "area": "Garten",
    "status": "in",
-   "nominated": true
+   "nominated": false
   },
   {
    "name": "Maurice Dziwak",
@@ -98,7 +98,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-gedeon-burkhard-178718",
    "area": "Garten",
    "status": "in",
-   "nominated": true
+   "nominated": false
   },
   {
    "name": "Nina Bridney",
@@ -311,13 +311,6 @@
   },
   {
    "tag": "bis Tag 6",
-   "name": "Redo",
-   "von": null,
-   "ergebnis": "Nominiert, Entscheidung offen",
-   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
-  },
-  {
-   "tag": "bis Tag 6",
    "name": "Godfrey Egbon",
    "von": null,
    "ergebnis": "Nominiert, Entscheidung offen",
@@ -326,13 +319,6 @@
   {
    "tag": "bis Tag 6",
    "name": "Nikola Grey",
-   "von": null,
-   "ergebnis": "Nominiert, Entscheidung offen",
-   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
-  },
-  {
-   "tag": "bis Tag 6",
-   "name": "Gedeon Burkhard",
    "von": null,
    "ergebnis": "Nominiert, Entscheidung offen",
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
