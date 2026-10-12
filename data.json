@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 11:45 Uhr",
+ "updated": "12.10.2026, 20:30 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -107,7 +107,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-nina-bridney-178894",
    "area": "Garten",
    "status": "in",
-   "nominated": true
+   "nominated": false
   },
   {
    "name": "Godfrey Egbon",
@@ -125,7 +125,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-francesca-morgese-178558",
    "area": "Garten",
    "status": "in",
-   "nominated": true
+   "nominated": false
   }
  ],
  "news": [
@@ -325,13 +325,6 @@
   },
   {
    "tag": "bis Tag 6",
-   "name": "Nina Bridney",
-   "von": null,
-   "ergebnis": "Nominiert, Entscheidung offen",
-   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
-  },
-  {
-   "tag": "bis Tag 6",
    "name": "Nikola Grey",
    "von": null,
    "ergebnis": "Nominiert, Entscheidung offen",
@@ -343,13 +336,6 @@
    "von": null,
    "ergebnis": "Nominiert, Entscheidung offen",
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
-  },
-  {
-   "tag": "Tag 7",
-   "name": "Francesca Morgese",
-   "von": "Zuschauerinnen und Zuschauer entscheiden",
-   "ergebnis": "Nominiert, Entscheidung offen",
-   "url": "https://www.sol.de/"
   }
  ],
  "arch": [
