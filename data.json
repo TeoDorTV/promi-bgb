@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 22:18 Uhr",
+ "updated": "12.10.2026, 22:19 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -165,6 +165,13 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/doppel-exit-wer-muss-heute-gehen-pbb-wer-ist-raus-nominiert-200249"
   },
   {
+   "iso": "2026-10-12T12:14",
+   "date": "12.10.2026, 14:14 Uhr",
+   "title": "\"Promi Big Brother\" 2026: Wer ist raus? Diese zwei Stars verlassen die Show!",
+   "text": "Bei \"Promi Big Brother\" spitzt sich die Lage zu! Nach einer Woche voller Nominierungen, Intrigen und Nervenkitzel steht heute, am 12. Oktober, der erste große Doppel-Rauswurf an. Welche Promis müssen heute ihre Koffer packen?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/promi-big-brother-doppel-exit-wer-muss-heute-gehen-200249"
+  },
+  {
    "iso": "2026-10-12T11:33",
    "date": "12.10.2026, 13:33 Uhr",
    "title": "\"Promi Big Brother\": Francesca spricht über ihre Fehlgeburt - Kim Virginia bricht in Tränen aus",
@@ -226,13 +233,6 @@
    "title": "\"War alles furchtbar\": \"Promi Big Brother\"-Bewohnerin Gia Georgina packt über On-Off-Beziehung aus",
    "text": "Gia Georgina öffnet sich bei \"Promi Big Brother über eine schwierige Phase in ihrem Leben. In einer früheren On-Off-Beziehung seien \"extreme Streitereien\" gang und gäbe gewesen.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-gia-georgina-ueber-on-off-beziehung-mit-ihrem-ex-partner-199796"
-  },
-  {
-   "iso": "2026-10-11T00:10",
-   "date": "11.10.2026, 02:10 Uhr",
-   "title": "\"Mister People-Pleaser\" und \"Lästertante\": Godfrey teilt gegen \"Promi Big Brother\"-Bewohner aus",
-   "text": "Am Lagerfeuer wird's ungemütlich: Christian zieht doch tatsächlich wieder ins \"Promi Big Brother\"-Haus und lässt ihn mit Anouschka zurück! Eine Kombi, die nur schiefgehen kann - und direkt eskaliert.",
-   "url": "https://www.joyn.de/bts/serien/promi-big-brother/mister-people-pleaser-und-laestertante-godfrey-teilt-gegen-pbb-bewohner-innen-aus-199562"
   }
  ],
  "episodes": [
@@ -479,6 +479,10 @@
   {
    "text": "\"Promi Big Brother\" 2026: Wer ist raus? Diese zwei Stars verlassen die Show!",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/doppel-exit-wer-muss-heute-gehen-pbb-wer-ist-raus-nominiert-200249"
+  },
+  {
+   "text": "\"Promi Big Brother\" 2026: Wer ist raus? Diese zwei Stars verlassen die Show!",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/promi-big-brother-doppel-exit-wer-muss-heute-gehen-200249"
   }
  ]
 }
