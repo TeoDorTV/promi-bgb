@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 21:29 Uhr",
+ "updated": "12.10.2026, 22:09 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -8,7 +8,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-kim-virginia-195186",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Nikola Grey",
@@ -17,7 +17,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-nicola-grey-195212",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Tessa Bergmeier",
@@ -26,7 +26,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-tessa-bergmeier-195373",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Anouschka Renzi",
@@ -35,7 +35,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-anouschka-renzi-195123",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Axel Schulz",
@@ -44,7 +44,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-axel-schulz-178328",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Nadja Benaissa",
@@ -53,7 +53,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-nadja-benaissa-178880",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Redo",
@@ -62,7 +62,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-redo-178899",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Maurice Dziwak",
@@ -71,7 +71,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-maurice-dziwak-178854",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Christian Lell",
@@ -80,7 +80,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-christian-lell-178517",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Gia Georgina",
@@ -89,7 +89,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-gia-georgina-178838",
    "area": "Haus",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Gedeon Burkhard",
@@ -98,7 +98,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-gedeon-burkhard-178718",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Nina Bridney",
@@ -107,7 +107,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-nina-bridney-178894",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   },
   {
    "name": "Godfrey Egbon",
@@ -125,7 +125,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-francesca-morgese-178558",
    "area": "Garten",
    "status": "in",
-   "nominated": false
+   "nominated": true
   }
  ],
  "news": [
@@ -310,11 +310,95 @@
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
   },
   {
-   "tag": "bis Tag 6",
+   "tag": "Tag 8",
+   "name": "Kim Virginia",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
    "name": "Nikola Grey",
-   "von": null,
-   "ergebnis": "Gerettet",
-   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Tessa Bergmeier",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Anouschka Renzi",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Axel Schulz",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Nadja Benaissa",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Redo",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Maurice Dziwak",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Christian Lell",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Gia Georgina",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Gedeon Burkhard",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Nina Bridney",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
+  },
+  {
+   "tag": "Tag 8",
+   "name": "Francesca Morgese",
+   "von": "Big Brother war es",
+   "ergebnis": "Nominiert, Entscheidung offen",
+   "url": ""
   }
  ],
  "arch": [
