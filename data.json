@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 21:21 Uhr",
+ "updated": "12.10.2026, 21:27 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -35,7 +35,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-anouschka-renzi-195123",
    "area": "Garten",
    "status": "in",
-   "nominated": true
+   "nominated": false
   },
   {
    "name": "Axel Schulz",
@@ -302,13 +302,6 @@
   }
  ],
  "noms": [
-  {
-   "tag": "Tag 6",
-   "name": "Anouschka Renzi",
-   "von": "Verlierer-Team (Abstimmung im eigenen Wohnbereich), meiste Stimmen",
-   "ergebnis": "Nominiert, Entscheidung offen",
-   "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
-  },
   {
    "tag": "bis Tag 6",
    "name": "Godfrey Egbon",
