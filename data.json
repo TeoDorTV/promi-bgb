@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026, 21:27 Uhr",
+ "updated": "12.10.2026, 21:29 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -17,7 +17,7 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-nicola-grey-195212",
    "area": "Haus",
    "status": "in",
-   "nominated": true
+   "nominated": false
   },
   {
    "name": "Tessa Bergmeier",
@@ -115,8 +115,8 @@
    "img": "https://img.joyn.de/lido/images/2026/09/02/2bbbbe67-bfce-4fc3-a745-bf7927bf21e9.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A66%2C%22width%22%3A2100%2C%22height%22%3A1181%7D%2C%22height%22%3A630%7D",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohner-godfrey-egbon-178758",
    "area": "Garten",
-   "status": "in",
-   "nominated": true
+   "status": "out",
+   "nominated": false
   },
   {
    "name": "Francesca Morgese",
@@ -306,14 +306,14 @@
    "tag": "bis Tag 6",
    "name": "Godfrey Egbon",
    "von": null,
-   "ergebnis": "Nominiert, Entscheidung offen",
+   "ergebnis": "Ausgezogen (Tag 8)",
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
   },
   {
    "tag": "bis Tag 6",
    "name": "Nikola Grey",
    "von": null,
-   "ergebnis": "Nominiert, Entscheidung offen",
+   "ergebnis": "Gerettet",
    "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-wer-ist-raus-und-wer-ist-nominiert-re-3,782871.html"
   }
  ],
