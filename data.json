@@ -1,5 +1,5 @@
 {
- "updated": "15.10.2026, 01:58 Uhr",
+ "updated": "15.10.2026, 01:59 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -221,18 +221,18 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-schock-fuer-kim-virginia-ehefrau-von-nikola-ist-raus-200905"
   },
   {
+   "iso": "2026-10-13T20:31",
+   "date": "13.10.2026, 22:31 Uhr",
+   "title": "Exit-Schock für Nikola an Tag 9: Dieser Promi ist bei \"Promi Big Brother\" raus",
+   "text": "Die Schonfrist bei \"Promi Big Brother\" 2026 ist endgültig vorbei. Am Dienstagabend, 13. Oktober, musste bereits ein dritter Promi das Haus verlassen.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-schock-fuer-nikola-seine-ehefrau-kim-virginia-ist-raus-200905"
+  },
+  {
    "iso": "2026-10-13T19:52",
    "date": "13.10.2026, 21:52 Uhr",
    "title": "\"Garten der Heuchler\": Vor seinem \"Promi Big Brother\"-Exit setzt Godfrey zum Rundumschlag an",
    "text": "Wenige Stunden vor seinem Auszug gerät Godfrey Egbon ein letztes Mal mit seinen Mitbewohner:innen aneinander. Die Diskussion hat es in sich und endet in einem verbalen Rundumschlag des Models.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/garten-der-heuchler-godfrey-rechnet-vor-seinem-exit-bei-pbb-ab-200956"
-  },
-  {
-   "iso": "2026-10-13T17:25",
-   "date": "13.10.2026, 19:25 Uhr",
-   "title": "Erkannt? So sah \"PBB\"-Star Kim Virginia Grey vor ihrer Reality-Karriere als Flugbegleiterin aus",
-   "text": "Kim Virginia Grey hat ihre Fans mit einem seltenen Foto aus ihrer Vergangenheit überrascht. Auf dem Schnappschuss ist der Realitystar mit 20 Jahren als Flugbegleiterin zu sehen.",
-   "url": "https://www.joyn.de/bts/serien/promi-big-brother/2026-kim-virginia-grey-frueher-so-sah-sie-als-flugbegleiterin-aus-200908"
   }
  ],
  "episodes": [
@@ -535,6 +535,10 @@
   {
    "text": "Exit-Schock für Nikola an Tag 9: Dieser Promi ist bei \"Promi Big Brother\" raus",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-schock-fuer-kim-virginia-ehefrau-von-nikola-ist-raus-200905"
+  },
+  {
+   "text": "Exit-Schock für Nikola an Tag 9: Dieser Promi ist bei \"Promi Big Brother\" raus",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-schock-fuer-nikola-seine-ehefrau-kim-virginia-ist-raus-200905"
   },
   {
    "text": "\"Garten der Heuchler\": Vor seinem \"Promi Big Brother\"-Exit setzt Godfrey zum Rundumschlag an",
