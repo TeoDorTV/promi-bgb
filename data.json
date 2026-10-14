@@ -1,5 +1,5 @@
 {
- "updated": "15.10.2026, 00:23 Uhr",
+ "updated": "15.10.2026, 01:54 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -7,7 +7,7 @@
    "img": "https://img.joyn.de/lido/images/2026/10/03/8d4a8062-607d-4ece-bae4-19a7e4e11c03.jpg/profile:original.webp/%7B%22width%22%3A620%2C%22rect%22%3A%7B%22x%22%3A0%2C%22y%22%3A208%2C%22width%22%3A1400%2C%22height%22%3A787%7D%2C%22height%22%3A1080%7D",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/kandidaten/bewohnerin-kim-virginia-195186",
    "area": "Haus",
-   "status": "in",
+   "status": "out",
    "nominated": false
   },
   {
@@ -416,6 +416,13 @@
    "name": "Francesca Morgese",
    "von": "Big Brother war es",
    "ergebnis": "Gerettet",
+   "url": ""
+  },
+  {
+   "tag": "Tag 9",
+   "name": "Kim Virginia",
+   "von": null,
+   "ergebnis": "Ausgezogen (Tag 9)",
    "url": ""
   }
  ],
