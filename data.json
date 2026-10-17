@@ -1,5 +1,5 @@
 {
- "updated": "17.10.2026, 03:23 Uhr",
+ "updated": "17.10.2026, 07:42 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -130,6 +130,13 @@
  ],
  "news": [
   {
+   "iso": "2026-10-16T20:27",
+   "date": "16.10.2026, 22:27 Uhr",
+   "title": "\"Promi Big Brother\"-Exit: An Tag 12 trifft es Anouschka! Wie reagiert die Schauspielerin?",
+   "text": "Es wird immer leerer im \"Promi Big Brother\"-Garten: Am Freitagabend, 16. Oktober, musste der sechste Bewohner die Show verlassen. Wen hat es diesmal getroffen?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-exit-an-tag12-anouschka-ist-raus-202618"
+  },
+  {
    "iso": "2026-10-16T15:38",
    "date": "16.10.2026, 17:38 Uhr",
    "title": "\"Vermisse den Zusammenhalt\": \"Promi Big Brother\"-Bewohner Redo über seine DDR-Vergangenheit",
@@ -226,13 +233,6 @@
    "title": "\"Busenschalen\"? TV-Star Gedeon Burkhard versteht bei \"Promi Big Brother\" die Welt nicht mehr",
    "text": "Vom Garten direkt unter die Dusche: Für Nina Bridney beginnt nach ihrem Einzug ins \"Promi Big Brother\"-Haus erst einmal das große Verwöhnprogramm. Gedeon Burkhard ist fasziniert davon, was die Streamerin alles im Gepäck hat.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/duschkleid-und-nippelpads-nina-bridney-gibt-bei-pbb-einblick-in-ihre-beauty-welt-201962"
-  },
-  {
-   "iso": "2026-10-15T13:27",
-   "date": "15.10.2026, 15:27 Uhr",
-   "title": "Wer gewinnt \"Promi Big Brother\"? Nikola Grey nennt seine Top drei - mit einer Überraschung",
-   "text": "Nikola Grey und seine Partnerin Kim Virginia mussten \"Promi Big Brother\" 2026 früh verlassen. Genug Zeit ist den Realitystars jedoch geblieben, die verbleibenden Bewohner:innen und ihre Charaktereigenschaften kennenzulernen. Jetzt verrät 30-Jährige, wem er den Sieg zutraut.",
-   "url": "https://www.joyn.de/bts/serien/promi-big-brother/wer-gewinnt-pbb-nikola-grey-nennt-seine-top-drei-201859"
   }
  ],
  "episodes": [
@@ -523,6 +523,10 @@
   {
    "text": "Folge Tag 8: Romantische Hochzeitsnacht, explosiver Streit und ein Doppel-Exit",
    "url": "https://www.joyn.de/serien/promi-big-brother/2026-8-tag-8-romantische-hochzeitsnacht-explosiver-streit-und-ein-doppel-exit"
+  },
+  {
+   "text": "\"Promi Big Brother\"-Exit: An Tag 12 trifft es Anouschka! Wie reagiert die Schauspielerin?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-exit-an-tag12-anouschka-ist-raus-202618"
   },
   {
    "text": "\"Vermisse den Zusammenhalt\": \"Promi Big Brother\"-Bewohner Redo über seine DDR-Vergangenheit",
