@@ -1,5 +1,5 @@
 {
- "updated": "19.10.2026, 12:17 Uhr",
+ "updated": "19.10.2026, 19:02 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -130,10 +130,17 @@
  ],
  "news": [
   {
+   "iso": "2026-10-19T00:23",
+   "date": "19.10.2026, 02:23 Uhr",
+   "title": "\"Nicht mehr existent!\": Gedeon Burkhard mit Ansage für Christian nach \"Promi Big Brother\"-Exit",
+   "text": "Nach dem \"Promi Big Brother\"-Aus treffen Gedeon Burkhard und Christian Lell in der \"Late Night Show\" erneut aufeinander. Und dort eskaliert der Zoff! Gedeon rechnet knallhart mit seinem Erzfeind ab.",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/fuer-mich-nicht-mehr-existent-gedeon-burkhard-rechnet-nach-pbb-exit-mit-christian-lell-ab-203381"
+  },
+  {
    "iso": "2026-10-18T23:10",
    "date": "19.10.2026, 01:10 Uhr",
-   "title": "Nach \"Promi Big Brother\"-Drama: Christian Lell will Nina nie etwas vorgeworfen haben!",
-   "text": "Im \"Promi Big Brother\"-Haus wurde Christian Lell zum \"fakesten Bewohner\" gewählt. In der \"Late Night Show\" wehrt sich der Ex-Fußballer gegen die Vorwürfe und verrät, was zwischen ihm und Nina wirklich gelaufen sein soll.",
+   "title": "\"Keiner hat so viel geweint wie ich\": \"Promi Big Brother\"-Star Christian Lell äußert sich zu Nina",
+   "text": "Im \"Promi Big Brother\"-Haus wurde Christian Lell zum \"fakesten Bewohner\" gewählt. Grund dafür war vor allem die Fake-Romanze mit Nina Bridney. Im exklusiven Interview verrät er jetzt, ob er das Drama mit Nina geklärt hat.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/nach-pbb-drama-christian-lell-aeussert-sich-zur-fake-romanze-mit-nina-bridney-203378"
   },
   {
@@ -146,8 +153,8 @@
   {
    "iso": "2026-10-18T19:34",
    "date": "18.10.2026, 21:34 Uhr",
-   "title": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
-   "text": "Der \"Promi Big Brother\"-Garten ist so leer wie noch nie: Am Sonntagabend, 18. Oktober, müssen gleich zwei Promis ihre Koffer packen. Christian Lell muss plötzlich ausziehen - und dann trifft es auch noch Gedeon. Wie die beiden reagieren?",
+   "title": "\"Promi Big Brother\"-Doppel-Exit: Wer muss kurz vor dem Finale gehen?",
+   "text": "Der \"Promi Big Brother\"-Garten ist so leer wie noch nie: Am Sonntagabend, 18. Oktober, müssen gleich zwei Promis ihre Koffer packen. Christian Lell muss ausziehen - und dann trifft es auch noch Gedeon. Wie reagieren die beiden?",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-doppel-exit-christian-und-gedeon-muessen-an-tag14-gehen-203355"
   },
   {
@@ -226,13 +233,6 @@
    "title": "Anouschka Renzi verrät ihre Flop 3: Wem würde sie den \"Promi Big Brother\"-Sieg am wenigsten gönnen?",
    "text": "Genervt war Anouschka Renzi von vielen Bewohner:innen. Doch wem von ihnen würde sie keinnesfalls das \"Promi Big Brother\"-Preisgeld gönnen? Im Interview hat es die Schauspielerin verraten.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/anouschka-renzi-verraet-ihre-flop-drei-wem-wuerde-sie-den-pbb-sieg-am-wenigsten-goennen-202888"
-  },
-  {
-   "iso": "2026-10-17T12:52",
-   "date": "17.10.2026, 14:52 Uhr",
-   "title": "\"Promi Big Brother\"-Eskalation: Francesca teilt ordentlich gegen Christian aus!",
-   "text": "Kurz vor dem \"Promi Big Brother\"-Finale kracht es im Garten noch einmal gewaltig! Francesca hat von Christian endgültig die Schnauze voll und geigt ihm endlich die Meinung.",
-   "url": "https://www.joyn.de/bts/serien/promi-big-brother/duerfen-hier-wirklich-alle-gewinnen-ausser-er-die-pbb-bewohner-haben-keine-lust-auf-christian-lell-202847"
   }
  ],
  "episodes": [
@@ -537,11 +537,15 @@
    "url": "https://www.joyn.de/serien/promi-big-brother/2026-8-tag-8-romantische-hochzeitsnacht-explosiver-streit-und-ein-doppel-exit"
   },
   {
+   "text": "\"Nicht mehr existent!\": Gedeon Burkhard mit Ansage für Christian nach \"Promi Big Brother\"-Exit",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/fuer-mich-nicht-mehr-existent-gedeon-burkhard-rechnet-nach-pbb-exit-mit-christian-lell-ab-203381"
+  },
+  {
    "text": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/promi-big-brother-exit-an-tag14-christian-muss-als-erster-gehen-203355"
   },
   {
-   "text": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
+   "text": "\"Promi Big Brother\"-Doppel-Exit: Wer muss kurz vor dem Finale gehen?",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-doppel-exit-christian-und-gedeon-muessen-an-tag14-gehen-203355"
   },
   {
