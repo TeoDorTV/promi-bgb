@@ -1,5 +1,5 @@
 {
- "updated": "19.10.2026, 02:05 Uhr",
+ "updated": "19.10.2026, 06:28 Uhr",
  "cast": [
   {
    "name": "Kim Virginia",
@@ -137,6 +137,13 @@
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/promi-big-brother-exit-an-tag14-christian-muss-als-erster-gehen-203355"
   },
   {
+   "iso": "2026-10-18T19:34",
+   "date": "18.10.2026, 21:34 Uhr",
+   "title": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
+   "text": "Der \"Promi Big Brother\"-Garten ist so leer wie noch nie: Am Sonntagabend, 18. Oktober, müssen gleich zwei Promis ihre Koffer packen. Christian Lell muss plötzlich ausziehen - und dann trifft es auch noch Gedeon. Wie die beiden reagieren?",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-doppel-exit-christian-und-gedeon-muessen-an-tag14-gehen-203355"
+  },
+  {
    "iso": "2026-10-18T14:29",
    "date": "18.10.2026, 16:29 Uhr",
    "title": "\"Promi Big Brother\": Die Mutter von Anouschka Renzi war eine berühmte Schauspielerin",
@@ -226,13 +233,6 @@
    "title": "\"Promi Big Brother\"-Eskalation: Francesca teilt ordentlich gegen Christian aus!",
    "text": "Kurz vor dem \"Promi Big Brother\"-Finale kracht es im Garten noch einmal gewaltig! Francesca hat von Christian endgültig die Schnauze voll und geigt ihm endlich die Meinung.",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/francesca-rastet-bei-pbb-aus-chris-du-brauchst-hilfe-202847"
-  },
-  {
-   "iso": "2026-10-17T11:30",
-   "date": "17.10.2026, 13:30 Uhr",
-   "title": "\"Promi Big Brother\"-Bewohner Gedeon Burkhard bald als \"seniler alter Sack\" bei OnlyFans?",
-   "text": "Kurz vor dem Finale geht es im \"Promi Big Brother\"-Aus witzig zu. Gedeon Burkhard und die Bewohner:innen unterhalten sich über Altersunterschiede und das Onlyfans-Einkommen. Letzteres reizt sogar den Schauspieler.",
-   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-bewohner-gedeon-burkhrad-will-der-senile-alte-sack-bei-onlyfans-durchstarten-202820"
   }
  ],
  "episodes": [
@@ -539,6 +539,10 @@
   {
    "text": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
    "url": "https://www.joyn.de/bts/serien/promi-big-brother/promi-big-brother-exit-an-tag14-christian-muss-als-erster-gehen-203355"
+  },
+  {
+   "text": "\"Promi Big Brother\"-Doppel-Exit: Christian und Gedeon sind raus!",
+   "url": "https://www.joyn.de/bts/serien/promi-big-brother/pbb-doppel-exit-christian-und-gedeon-muessen-an-tag14-gehen-203355"
   },
   {
    "text": "Veränderte Stimme durch Krankheit? So geht es Nina nach ihrem \"Promi Big Brother\"-Aus",
